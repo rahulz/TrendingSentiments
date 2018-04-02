@@ -128,3 +128,9 @@ STATICFILES_DIRS = [
 ]
 
 DATE_FORMAT = "%Y-%m-%d"
+
+TW_CONSUMER_KEY = os.environ['TW_CONSUMER_KEY']
+
+TW_CONSUMER_SECRET = os.environ['TW_CONSUMER_SECRET']
+TW_APP_KEY = os.environ['TW_APP_KEY']
+TW_APP_SECRET = os.environ['TW_APP_SECRET']

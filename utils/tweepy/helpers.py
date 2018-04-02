@@ -19,7 +19,7 @@ class TweePy:
         self.api = tweepy.API(auth)
 
     def get_trends(self):
-        return self.api.trends_place(Places.INDIA)
+        return self.api.trends_place(Places.INDIA.value)
 
     def search(self, q, since_id=None, max_id=None):
         return self.api.search(lang='en', q=q, count=100, result_type='recent', since_id=since_id, max_id=max_id)

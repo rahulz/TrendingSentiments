@@ -1,6 +1,6 @@
 from __future__ import absolute_import, unicode_literals
 
-from celery import Celery
+import celery
 from django.apps import apps
 from django.utils import timezone
 
@@ -10,7 +10,7 @@ from utils.ai.sentiment import analyse_sentiment, clean_tweet
 from utils.db.helpers import cleanup_fields
 from utils.tweepy.helpers import TweePy
 
-app = Celery('GitLabExt')
+app = celery.Celery('GitLabExt')
 
 
 @app.task()
