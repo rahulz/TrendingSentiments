@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '+)wbgqp+(dhg8=$fk%1=e(o55s4+a(+)h4*=3002zly+&3i)e)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ['DEBUG']
 
 ALLOWED_HOSTS = []
 
@@ -128,9 +128,3 @@ STATICFILES_DIRS = [
 ]
 
 DATE_FORMAT = "%Y-%m-%d"
-
-TW_CONSUMER_KEY = "ABqdGcPLLERJHc8SuAvWjj15g"
-
-TW_CONSUMER_SECRET = "4k6rMnryRLMBKjP9cHZcstViCHpvlgcyBP7WHsNBXHfJotgDXA"
-TW_APP_KEY = "569727959-Uo7W00UqRmnFidEpYr62RTsQvSzinRjNFNryxTPz"
-TW_APP_SECRET = "k5X6s4A6RzB005HCY9r9bFqR2OXcwlg0euaao2HDn113H"
