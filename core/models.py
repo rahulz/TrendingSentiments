@@ -10,6 +10,8 @@ class Trend(models.Model):
     tweet_volume = models.BigIntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
     created_at_date = models.DateField(auto_now_add=True)
+    latest_id = models.TextField()
+    earliest_id = models.TextField()
 
 
 class Tweet(models.Model):
