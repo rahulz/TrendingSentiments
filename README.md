@@ -1,4 +1,5 @@
-# TrendingSentiments
+# Twitter Sentiment analysis
 A twitter sentiment analysis portal
 
-.. image:: https://media.giphy.com/media/t9kebDFGcnZbKrPZx8/giphy.gif
+![demo](https://media.giphy.com/media/t9kebDFGcnZbKrPZx8/giphy.gif)
+
